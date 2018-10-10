@@ -1,0 +1,27 @@
+********************************************************
+CSE 6431 Project
+Author: Cheng Zhang
+Contact: zhang.7804@osu.edu
+
+Basic idea: A diner waits for a table from Tables Queue,
+puts his order in Orders Queue, waits for his order
+being finished from ServeOrders Queue, eats and leaves.
+
+A cook gets a order from Orders Queue, processes the 
+order and puts the finished order back to ServeOrders Queue
+
+********************************************************
+
+Enclosed are all .java and .class files.
+
+Restaurant is the main class.
+
+execute "javac Restaurant.java" to compile the program
+
+execute "java Restaurant inputFileName" to run the simulation with the name of input file.
+
+For example:
+execute "java Restaurant project-sample-input-1.txt" to run sample 1
+execute "java Restaurant project-sample-input-2.txt" to run sample 2
+
+!!!Please note that: the final left time might have 1 minute error because of System.currentTimeMillis() error. Just run the program again the get the right result.
